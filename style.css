@@ -12,7 +12,6 @@ html {
     --black-color-first: #000000;
     --black-color-second: #666666;
     --black-color-third: #888888;
-    /* background-color: #FF8FE8; */
 }
 
 body::before {
@@ -148,18 +147,7 @@ p {
     color: var(--pink-color);
 }
 
-.first-gradient {
-    background: linear-gradient(120.98deg, #70B6FF 0%, #FFC6F3 58.06%, #8F83F7 87.28%);
-    transform: rotate(-180deg);
-}
-
-.secong-gradient {
-    background: linear-gradient(120.12deg, #FF8FE8 0%, #FFC960 100%);
-    transform: rotate(-180deg);
-}
-
-.third-gradient {
-    /* background: conic-gradient(from 146.55deg at 68.63% 46.73%, #FFFFFF 0deg, rgba(255, 255, 255, 0) 360deg), conic-gradient(from 180deg at 50% 50%, #456EDC -11.49deg, #456BD2 307.41deg, #456EDC 348.51deg, #456BD2 667.41deg); */
+.blue-gradient {
     background: #B0BFE8 url(blue-bg.svg);
     background-position: center;
     background-size: cover;
@@ -285,11 +273,9 @@ nav ul a {
 }
 nav ul a:hover {
     background: rgba(255, 255, 255, 0.15);
-    /* border-radius: 6px; */
 }
 
 nav .logo {
-    /* display: inline-block; */
     margin-right: 35px;
 }
 
@@ -321,7 +307,6 @@ nav .menu-button {
 .main-image {
     display: block;
     width: 77%;
-    /* max-width: 920.5px; */
 }
 
 .grey {
@@ -370,19 +355,19 @@ nav .menu-button {
     margin-right: 11px;
 }
 
-.third-gradient .steps h2 {
+.blue-gradient .steps h2 {
     margin-bottom: 62px;
 }
 
-.third-gradient .steps p {
+.blue-gradient .steps p {
     max-width: 292px;
 }
 
-.third-gradient .steps h3 {
+.blue-gradient .steps h3 {
     margin-bottom: 16px;
 }
 
-.third-gradient .step:not(:last-of-type) {
+.blue-gradient .step:not(:last-of-type) {
     margin-bottom: 32px;
 }
 
@@ -754,11 +739,11 @@ footer .last-line {
         margin-bottom: 48px;
     }
 
-    .third-gradient {
+    .blue-gradient {
         justify-content: center;
     }
 
-    .third-gradient .step:last-of-type {
+    .blue-gradient .step:last-of-type {
         margin-bottom: 32px;
     }
 
@@ -895,13 +880,13 @@ footer .last-line {
         line-height: 34px;
     }
 
-    .third-gradient {
+    .blue-gradient {
         padding: 50px 24px;
         justify-content: center;
     }
 
-    .third-gradient .step:last-of-type,
-    .third-gradient .steps h2 {
+    .blue-gradient .step:last-of-type,
+    .blue-gradient .steps h2 {
         margin-bottom: 32px;
     }
 
