@@ -23,7 +23,7 @@ body::before {
     right: 0;
     height: 100%;
     max-height: 100vh;
-    background: #5364f2 url(background.svg);
+    background: #5364f2 url(./public/background.svg);
     background-position: center;
     background-size: cover;
     border-bottom-left-radius: 50px;
@@ -148,7 +148,7 @@ p {
 }
 
 .blue-gradient {
-    background: #B0BFE8 url(blue-bg.svg);
+    background: #B0BFE8 url(./public/blue-bg.svg);
     background-position: center;
     background-size: cover;
     padding: 55px 100px 44px 100px;
@@ -342,14 +342,14 @@ nav .menu-button {
 }
 
 .grey li:before {
-    content: url("check-circle-2.svg");
+    content: url("./public/check-circle-2.svg");
     display:  inline-block;
     vertical-align:  middle;
     margin-right: 11px;
 }
 
 .grey .headline li:before {
-    content: url("check-circle-1.svg");
+    content: url("./public/check-circle-1.svg");
     display:  inline-block;
     vertical-align:  middle;
     margin-right: 11px;
@@ -444,7 +444,7 @@ nav .menu-button {
 }
 
 .pink-gradient {
-    background: #ffbc8f url(background-2.svg);
+    background: #ffbc8f url(./public/background-2.svg);
     background-size: cover;
     padding-left: 135px;
     padding-right: 135px;
@@ -568,7 +568,7 @@ nav .menu-button {
 }
 
 .buy li:before {
-    content: url("check-yellow.svg");
+    content: url("./public/check-yellow.svg");
     display:  inline-block;
     vertical-align:  middle;
     margin-right: 11px;
@@ -576,7 +576,7 @@ nav .menu-button {
 
 .buy > div:first-of-type li:before,
 .buy > div:last-of-type li:before {
-    content: url("check-blue.svg");
+    content: url("./public/check-blue.svg");
     display:  inline-block;
     vertical-align:  middle;
     margin-right: 11px;
