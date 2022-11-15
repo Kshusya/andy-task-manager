@@ -367,8 +367,9 @@
         <script src="carousel.js"></script>
 
         <script>
-            function myFunction() {
-                const dropdownElements = document.getElementsByClassName("dropdown-content");
+            const dropdownElements = document.getElementsByClassName("dropdown-content");
+            const navbarButton = document.getElementById("button");
+            function toggleMenu() {
                 for (const e of dropdownElements) {
                     e.classList.remove("animate__fadeInDown");
                     e.classList.remove("animate__fadeOutUp", "animate__faster");
@@ -385,7 +386,15 @@
                     }
                 }
             }
-            button.addEventListener("click", myFunction);
+            navbarButton.addEventListener("click", toggleMenu);
+
+            window.addEventListener("resize", () => {
+                for (const e of dropdownElements) {
+                    e.classList.remove("show");
+                    e.classList.remove("animate__fadeInDown");
+                    e.classList.remove("animate__fadeOutUp");
+                }
+            })
         </script>
 
         <script>
